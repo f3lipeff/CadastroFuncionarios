@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="MI_DADOS_CADASTRO_OUT"
+	targetNamespace="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario"
+	xmlns:p1="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+	<wsdl:types>
+		<xsd:schema targetNamespace="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario"
+			xmlns="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:element name="MT_Dados_Cadastro_IN" type="DT_Dados_Cadastro_IN" />
+			<xsd:element name="MT_Dados_Cadastro_OUT" type="DT_Dados_Cadastro_OUT" />
+			<xsd:complexType name="DT_Dados_Cadastro_OUT">
+				<xsd:annotation>
+					<xsd:appinfo source="http://sap.com/xi/TextID">f5e171b03eee11e6a843005056a717d1</xsd:appinfo>
+				</xsd:annotation>
+				<xsd:sequence>
+					<xsd:element name="DadosCadastro" minOccurs="0"
+						maxOccurs="unbounded" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+						<xsd:annotation>
+							<xsd:appinfo source="http://sap.com/xi/TextID">52320e50398311e6c345083e8ed3b6c5</xsd:appinfo>
+						</xsd:annotation>
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="PrimeiroNome" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7280398611e697f1083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Sobrenome" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7281398611e6b074083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="NomeCompleto" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7282398611e6911a083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="CargoFuncionario" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7283398611e6b504083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DescricaoCargo" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7284398611e6ab14083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="MatriculaFuncionario" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7285398611e6c5e5083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="StatusUsuario" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7286398611e697ed083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DataAdmissao" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7287398611e6c369083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DataDemissao" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c7288398611e694fb083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Empresa" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9990398611e69a67083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DescricaoEmpresa" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9991398611e68713083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Departamento" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9992398611e6bae5083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DecricaoUnidadeOrg" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9993398611e68f42083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="CentroAlocado" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9994398611e6bfcc083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="NomeImediato" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9995398611e68dbe083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="MatriculaSuperior" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9996398611e6b466083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Cidade" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9997398611e6952b083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Endereco" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9998398611e69302083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Estado" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c9999398611e6c4a6083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="CEP" type="xsd:string" minOccurs="0"
+									xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999a398611e6ab71083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Pais" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999b398611e69cd7083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="ChaveOrganizacional" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999c398611e6cda8083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DescricaoChavOrg" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999d398611e68223083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="PerfilChavOrg" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999e398611e6a482083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Idioma" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c999f398611e6b5ad083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="TipoComunicacao" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a0398611e698d0083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="TipoUsuarioHcm" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a1398611e6cdd6083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="TipousuarioEcc" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a2398611e6cb9c083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="GrupoEcc" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a3398611e6aa10083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="DispositivoSaida" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a4398611e6822d083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="SaidaImediata" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a5398611e6b921083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Parametro1Hcm" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a6398611e6bb19083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="CodigoParametroHcm1" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a7398611e69b0a083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Parametro2Hcm" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a8398611e68b65083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="CodigoParametroHcm2" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99a9398611e6c4ae083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="FuncaoEcc" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99aa398611e6aedc083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="FuncaoHcm1" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99ab398611e69ed7083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="FuncaoHcm2" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99ac398611e6af85083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Licenca" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99ad398611e696ff083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="TipoSubtype0001" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2c99ae398611e6bf11083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Dominio" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">3e2cc0a0398611e6cd93083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="LoginUsuario" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">795104303eee11e6bdfc083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="LoginAd" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">bb3ca0703eee11e6c501083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="Exchange" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">bb3ca0713eee11e68af8083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+								<xsd:element name="OuAd" type="xsd:string"
+									minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+									<xsd:annotation>
+										<xsd:appinfo source="http://sap.com/xi/TextID">cf38e6103eee11e6c4b8083e8ed3b6c5</xsd:appinfo>
+									</xsd:annotation>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="DT_Dados_Cadastro_IN">
+				<xsd:annotation>
+					<xsd:appinfo source="http://sap.com/xi/TextID">f5db7e403eee11e6a929005056a717d1</xsd:appinfo>
+				</xsd:annotation>
+				<xsd:sequence>
+					<xsd:element name="DataUltAlteracao" type="xsd:string"
+						minOccurs="0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+						<xsd:annotation>
+							<xsd:appinfo source="http://sap.com/xi/TextID">51666bd0398111e6ca05083e8ed3b6c5</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="MT_Dados_Cadastro_IN">
+		<wsdl:part name="MT_Dados_Cadastro_IN" element="p1:MT_Dados_Cadastro_IN"
+			xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+	</wsdl:message>
+	<wsdl:message name="MT_Dados_Cadastro_OUT">
+		<wsdl:part name="MT_Dados_Cadastro_OUT" element="p1:MT_Dados_Cadastro_OUT"
+			xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+	</wsdl:message>
+	<wsdl:portType name="MI_DADOS_CADASTRO_OUT">
+		<wsdl:operation name="MI_DADOS_CADASTRO_OUT">
+			<wsdl:input message="p1:MT_Dados_Cadastro_IN" />
+			<wsdl:output message="p1:MT_Dados_Cadastro_OUT" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="MI_DADOS_CADASTRO_OUTBinding" type="p1:MI_DADOS_CADASTRO_OUT"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+		<wsdl:operation name="MI_DADOS_CADASTRO_OUT">
+			<soap:operation soapAction="http://sap.com/xi/WebService/soap1.1"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			<wsdl:input>
+				<soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="MI_DADOS_CADASTRO_OUTService">
+		<wsdl:port name="MI_DADOS_CADASTRO_OUTPort" binding="p1:MI_DADOS_CADASTRO_OUTBinding"
+			xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+			<soap:address
+				location="http://localhost:8888/sap/xi/engine?type=entry&amp;version=3.0&amp;Sender.Service=IDM&amp;Interface=urn%3Abr%3Acom%3Amrv%3AHCM001_Dados_Cadastro_Funcionario%5EMI_DADOS_CADASTRO_OUT"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

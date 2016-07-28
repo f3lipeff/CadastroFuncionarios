@@ -1,0 +1,15 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="MI_DADOS_CADASTRO_OUT"
+     targetNamespace="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+     xmlns:bpws="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
+     xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+     xmlns:p1="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+    <plnk:partnerLinkType name="MI_DADOS_CADASTRO_OUT">
+        <plnk:role name="MI_DADOS_CADASTRO_OUT" portType="p1:MI_DADOS_CADASTRO_OUT"/>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="urn:br:com:mrv:HCM001_Dados_Cadastro_Funcionario" location="MI_DADOS_CADASTRO_OUT_QAS.wsdl"/>
+</wsdl:definitions>
